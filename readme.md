@@ -18,8 +18,8 @@ cd hashcat/
 make
 make install
 ```
-### Download hate_crack
-```git clone https://github.com/trustedsec/hate_crack.git```
+### Download QUID_CRACK
+```git clone https://github.com/L1QU3D/QUID_CRACK.git```
 * Customize binary and wordlist paths in "config.json"
 * Make sure that at least "rockyou.txt" is within your "wordlists" path
 ### Create Optimized Wordlists
@@ -52,11 +52,11 @@ $ hashcat --help |grep -i ntlm
 $ ./hate_crack.py <hash file> 1000
 
   ___ ___         __             _________                       __    
- /   |   \_____ _/  |_  ____     \_   ___ \____________    ____ |  | __
-/    ~    \__  \\   __\/ __ \    /    \  \/\_  __ \__  \ _/ ___\|  |/ /
-\    Y    // __ \|  | \  ___/    \     \____|  | \// __ \\  \___|    < 
- \___|_  /(____  /__|  \___  >____\______  /|__|  (____  /\___  >__|_ \
-       \/      \/          \/_____/      \/            \/     \/     \/
+ /      \_____ _/  |_  ____     \_   ___ \____________    ____ |  | __
+/        \__  \\   __\/ __ \    /    \  \/\_  __ \__  \ _/ ___\|  |/ /
+\        // __ \|  | \  ___/    \     \____|  | \// __ \\  \___|    < 
+ \____ \   \  /__|  \___  >____\______  /|__|  (____  /\___  >__|_ \
+        \   \  \/          \/_____/      \/            \/     \/     \/
                           Version 1.09
   
 
